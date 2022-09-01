@@ -12,6 +12,8 @@ Para pode rusar esta herramienta, se necesita crear un nuevo archivo .env usando
 
 Luego de estp, necesita crear un .locust.conf usando como ejemplo el archivo example.locust.conf
 
+dentro de locustfile.py, puede configurar a gusto el request que desea hacer, incluso llenar un body en la variable body
+
 Luego de tener esto, tiene que generar el archivo sqlite con el comando
 
 ```
